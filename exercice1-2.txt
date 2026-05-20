@@ -1,0 +1,15 @@
+algorithme:comparaison;
+var:
+a;b:réels;
+
+debut
+afficher"veuillez entrer un réel";
+saisir a;
+afficher"veuillez entrer un réel";
+saisir b;
+si a>b alors:
+afficher a,"est le plus grand";
+sinon
+afficher b,"est le plus grand";
+finsi
+Fin
