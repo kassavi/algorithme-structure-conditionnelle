@@ -1,0 +1,12 @@
+algorithme:annee_naissance
+var:
+a,b:entiers;
+
+debut
+afficher"veuillez entrer votre année de naissance";
+saisir a;
+b←2026-a;
+si b<10 alors:
+afficher"vous avez moins de 10 ans";
+finsi
+Fin
