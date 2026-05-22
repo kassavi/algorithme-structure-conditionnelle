@@ -1,0 +1,15 @@
+algorithme:resoudre_equation;
+var:
+a,b,x:réels;
+
+debut
+afficher"veuillez entrer a";
+saisir a;
+afficher"veuillez entrer b";
+si a<>0 alors:
+x←-b/a;
+afficher la solutuion de l'équation est"x";
+sinon
+afficher"l'équation n'admet pas de solution";
+finsi
+Fin
