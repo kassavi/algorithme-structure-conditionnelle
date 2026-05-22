@@ -1,0 +1,21 @@
+algorithme:plus_grand
+var:
+a,b,c,max:réels;
+
+debut
+afficher"veuillez entrer un réel";
+saisir a;
+afficher"veuillez entrer un réel";
+saisir b;
+afficher"veuillez entrer un réel";
+saisir c;
+si a>b alors:
+max←a;
+sinon
+max←b;
+finsi
+si c>max alors:
+max←c
+finsi
+afficherle maximum est" max";
+Fin
